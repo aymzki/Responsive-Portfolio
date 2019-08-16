@@ -173,6 +173,18 @@ footer {
     bottom:0;
     width:100%;
     border-top: solid 10px teal;
-}   
+} 
+
+/*Media Queries*/
+@media screen and (maxwidth: 980px) {
+
+}
+@media screen and (maxwidth: 768px) {
+
+}
+
+@media screen and (maxwidth: 640px) {
+
+}
 
 /* Background pattern from Toptal Subtle Patterns */
