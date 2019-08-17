@@ -210,28 +210,31 @@ footer {
         width: 600px;
         height: auto;
         margin: auto;
-        padding: 50px;
+        padding: 20px;
         box-sizing: border-box;
         position: relative;
-        top: 40px;
-    
     }
 
     .links {
         text-align: center;
         font-size: 25px;
+        position: relative;
+        top: 100px;
+        display: inline-block;
     }
 
     h1 {
         font-size: 25px;
-        width: 100%
+        width: 100%;
         text-align: center;
+        
     }
 
     h2 {
         font-size: 25px;
         width: 100%;
         margin: 0;
+        top: -10px;
     }
 
     .links {
