@@ -94,6 +94,13 @@ p {
 th, td {
     padding: 15px;
 }
+
+/*Rewriting into grid instead of table*/
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
 /*This is the portfolio images*/
 .projectimg {
     position: relative;
@@ -206,10 +213,16 @@ footer {
 /*This media query is for smartphone*/
 @media (max-width: 640px) {
 
+    .mainheader {
+        width: 100%;
+        margin: 0px auto;
+        top: 200px;
+    }
+
     .content {
-        width: 600px;
+        width: 580px;
         height: auto;
-        margin: auto;
+        margin: 40px;
         padding: 20px;
         box-sizing: border-box;
         position: relative;
@@ -218,6 +231,7 @@ footer {
     .links {
         text-align: center;
         font-size: 25px;
+        width: 100%;
         position: relative;
         top: 100px;
         display: inline-block;
@@ -227,7 +241,6 @@ footer {
         font-size: 25px;
         width: 100%;
         text-align: center;
-        
     }
 
     h2 {
@@ -236,20 +249,17 @@ footer {
         margin: 0;
         top: -10px;
     }
-
-    .links {
-        text-align: center;
-        }    
-
+ 
     .aboutme {
         width: 100%;
-    }    
+    } 
+
     #myface {
         width: 80%;
     }
 
     p {
-        font-size: 30px; 
+        font-size: 18px; 
         position: relative;
         margin: auto;
         margin-top: 100px;
@@ -257,6 +267,9 @@ footer {
         padding: 50px;
         
     }
+
+    /*The following code is for Portfolio Gallery*/
+    
 
 }
 
