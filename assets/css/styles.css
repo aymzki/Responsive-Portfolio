@@ -176,36 +176,59 @@ footer {
 } 
 
 /*Media Queries*/
+/*This media query is for computer*/
 @media screen and (max-width: 980px) {
 
 }
+
+/* This media query is for tablet*/
 @media screen and (max-width: 768px) {
+
+    .links {
+
+    }
+
     .aboutme {
         width: 100%;
-    }    
+    }  
+
     #myface {
         width: 80%;
     }
     
     p {
       font-size: 30px; 
-      color: blue; 
+     
     }
 
 }
-
+/*This media query is for smartphone*/
 @media (max-width: 640px) {
 
-.aboutme {
-    width: 100%;
-}    
-#myface {
-    width: 80%;
-}
+    h1 {
+        font-size: 50px;
+        width: 100%
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 
-p {
-  font-size: 30px; 
-  color: blue; 
+    
+
+    .links {
+        text-align: center;
+        }    
+
+    .aboutme {
+        width: 100%;
+    }    
+    #myface {
+        width: 80%;
+    }
+
+    p {
+    font-size: 30px; 
+   
 }
 
 }
