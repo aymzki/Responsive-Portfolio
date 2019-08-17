@@ -208,12 +208,12 @@ footer {
     h1 {
         font-size: 50px;
         width: 100%
-        position: fixed;
-        bottom: 0;
-        right: 0;
     }
 
-    
+    h2 {
+        font-size: 50px;
+        width: 100%;
+    }
 
     .links {
         text-align: center;
@@ -228,8 +228,12 @@ footer {
 
     p {
     font-size: 30px; 
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px;
    
-}
+    }
 
 }
 
