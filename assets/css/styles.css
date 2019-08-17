@@ -85,7 +85,8 @@ p {
 #myface {
     float: left;
     padding: 10px;
-
+    height: 190 px;
+    width: 150 px;
 }
 
 /*Here begins the portfolio page-specific codes*/
@@ -205,14 +206,32 @@ footer {
 /*This media query is for smartphone*/
 @media (max-width: 640px) {
 
+    .content {
+        width: 600px;
+        height: auto;
+        margin: auto;
+        padding: 50px;
+        box-sizing: border-box;
+        position: relative;
+        top: 40px;
+    
+    }
+
+    .links {
+        text-align: center;
+        font-size: 25px;
+    }
+
     h1 {
-        font-size: 50px;
+        font-size: 25px;
         width: 100%
+        text-align: center;
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 25px;
         width: 100%;
+        margin: 0;
     }
 
     .links {
@@ -227,12 +246,13 @@ footer {
     }
 
     p {
-    font-size: 30px; 
-    position: relative;
-    margin-top: 100px;
-    width: 100%;
-    padding: 20px;
-   
+        font-size: 30px; 
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        width: 100%;
+        padding: 50px;
+        
     }
 
 }
