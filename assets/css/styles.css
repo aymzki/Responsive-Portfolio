@@ -176,14 +176,37 @@ footer {
 } 
 
 /*Media Queries*/
-@media screen and (maxwidth: 980px) {
+@media screen and (max-width: 980px) {
 
 }
-@media screen and (maxwidth: 768px) {
+@media screen and (max-width: 768px) {
+    .aboutme {
+        width: 100%;
+    }    
+    #myface {
+        width: 80%;
+    }
+    
+    p {
+      font-size: 30px; 
+      color: blue; 
+    }
 
 }
 
-@media screen and (maxwidth: 640px) {
+@media (max-width: 640px) {
+
+.aboutme {
+    width: 100%;
+}    
+#myface {
+    width: 80%;
+}
+
+p {
+  font-size: 30px; 
+  color: blue; 
+}
 
 }
 
