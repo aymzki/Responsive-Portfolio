@@ -92,12 +92,10 @@ p {
 }
 
 /*Here begins the portfolio page-specific codes*/
-/*This adjusts the padding for the table*/
-th, td {
-    padding: 15px;
-}
 
-/*Rewriting into flex instead of table*/
+
+/*I originally made a table in the first assignment, but I had to rewrite into flex instead to make it
+more adjustable. Unfortunately this made my portfolio content code look off and I did not have time to make as much adjustments as I wanted.*/
 .wrapper {
     display: flex;
     border: 10px solid #fff;
@@ -188,7 +186,9 @@ footer {
 } 
 
 /*Media Queries*/
-/*This media query is for laptop or desktop*/
+/*This media query is for laptop or desktop*
+I have worked from smartphone size to larger, meaning I have worked from the bottom of the page up to write this code.*/
+
 @media screen and (max-width: 980px) {
 
     #myface {
