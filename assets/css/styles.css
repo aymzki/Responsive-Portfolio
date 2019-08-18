@@ -330,13 +330,15 @@ footer {
     .projectimg {
         position: relative;
         display: inline-block;
-
+        padding: 5px;
+        padding-bottom: 10px;
     }
 
     h3 {
         position:absolute;
         width: 42%;
         right: 1070px;
+        left: 5px;
         bottom: 0px,
 
     }
