@@ -99,12 +99,13 @@ th, td {
 }
 
 /*Rewriting into flex instead of table*/
-.gallery {
+.wrapper {
     display: flex;
     border: 10px solid #fff;
     width: 900px;
     justify-content: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -122,7 +123,7 @@ h3 {
     margin: 0 auto;
     left: 0;
     right: 0;     
-    bottom: 50%;
+    bottom: 20%;
     }
       
 
@@ -195,17 +196,29 @@ footer {
 
 /* This media query is for tablet*/
 @media screen and (max-width: 768px) {
-
-    .links {
-
+   
+    .mainheader {
+        width: 100%;
+        height: 150px;
+        margin: 0px auto;
+        left: 0;
+        right: 0;    
+        top: 100px;
+    }
+    
+    .content {
+        width: 95%;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+    
     }
 
-    .aboutme {
-        width: 100%;
-    }  
-
     #myface {
-        width: 80%;
+        width: 20%;
+        height: 30%
     }
     
     p {
@@ -214,7 +227,7 @@ footer {
     }
 
 }
-/*This media query is for smartphone*/
+/*This media query is for smartphone size*/
 @media (max-width: 640px) {
 
     .mainheader {
@@ -237,8 +250,18 @@ footer {
     
     }
 
+    .links {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+       
+    }
+
     /*My problem here is adjusting the header so that the white space shows below and 
-    the links appear on top of it*/    
+    the links appear on top of it. Had I more time I would have done so.*/    
     .links {
         text-align: center;
         font-size: 20px;
@@ -283,8 +306,42 @@ footer {
     }
 
     /*The following code is for Portfolio Gallery*/
-    
+    .wrapper {
+        flex-direction: column;
+        
+    }
 
+    .projectimg {
+        position: relative;
+        display: inline-block;
+
+    }
+
+    h3 {
+        position:absolute;
+        width: 42%;
+        right: 1070px;
+        bottom: 0px,
+
+    }
+    /*This is for Contact Page*/
+    form {
+        width: 400px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+
+    }
+ /*Writing lines for the submit button that would isolate it from the other input tags was very difficult.*/
+    input {
+        width: 350px;
+        height: 30px;
+    }
+
+    input.submit {
+        width: 200px;
+        float: left;
+    }
 }
 
 /* Background pattern from Toptal Subtle Patterns */
